@@ -8,7 +8,7 @@ const Tabs = () => {
   };
 
   return (
-    <div className="flex" item-center>
+    <div className="flex flex-row"  item-center>
       <div
         onClick={() => handleTabClick(1)}
         className={`py-2 px-4 cursor-pointer ${activeTab === 1 ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}

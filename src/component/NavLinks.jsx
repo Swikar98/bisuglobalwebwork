@@ -36,7 +36,7 @@ const DropdownMenu = ({ items }) => {
           <AnimatePresence>
             {hoveredIndex === _id && subItems && (
               <motion.div
-                className="fixed "
+                className="fixed bg-white rounded-lg "
                 initial={{ opacity: 0, y: 5 }}
                 animate={{ opacity: 1, y: 0, transition: { duration: 0.2 } }}
                 exit={{ opacity: 0, y: 5, transition: { duration: 0.2 } }}
@@ -47,7 +47,7 @@ const DropdownMenu = ({ items }) => {
                   <div
                     key={subItem._id}
                     onClick={() => handleNavigation(subItem.href)}
-                    className="lg:relative flex-col left-0 m-2 text-sm text-gray-800 transition-colors hover:bg-gray-200 cursor-pointer"
+                    className="lg:relative  flex-col left-0 m-2 text-sm text-blue-600 transition-colors hover:bg-black cursor-pointer"
                   >
                     {subItem.title}
                   </div>
