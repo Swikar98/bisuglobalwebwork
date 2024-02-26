@@ -12,7 +12,7 @@ export default function ServicesItem() {
       <div className="bg-gray-100 w-full  p-4 group hover:shadow-md hover:shadow-black/25 transition-all hover:bg-gray-300 rounded-lg ">
         {" "}
         <div className="text-center  "> 
-        <AiFillSafetyCertificate className="text-blue-600 size-36 block mx-auto  " />
+        <AiFillSafetyCertificate className="text-blue-600 size-28 block mx-auto  " />
         </div>
         <h4 className="text-blue-600 font-semibold text-xl my-3"> Migration Skill Assessment   </h4>
         <p className="text-black text-xl"> When you study in Canada, you can take advantage of a reasonable cost structure and high-quality instruction.</p>
@@ -23,7 +23,7 @@ export default function ServicesItem() {
       <div className="bg-gray-100 lg:w-full   p-4 group hover:shadow-md hover:shadow-black/25 transition-all hover:bg-gray-300 rounded-lg ">
         {" "}
         <div className="text-center  "> 
-        <IoGlobe className="text-orange-600 size-36 block mx-auto  " />
+        <IoGlobe className="text-orange-600 size-28 block mx-auto  " />
       
         </div>
         <h4 className="text-blue-600 font-semibold text-xl my-3"> Assistance with Visa  </h4>
@@ -35,7 +35,7 @@ export default function ServicesItem() {
       <div className="bg-gray-100 lg:w-full p-4 group hover:shadow-md hover:shadow-black/25 transition-all hover:bg-gray-300 rounded-lg ">
         {" "}
         <div className="text-center  "> 
-        <MdOutlineLibraryBooks className="text-green-600 size-36 block mx-auto  " />
+        <MdOutlineLibraryBooks className="text-green-600 size-28 block mx-auto  " />
       
         </div>
         <h4 className="text-blue-600 font-semibold text-xl my-3"> Ielts/Pte  </h4>
@@ -47,7 +47,7 @@ export default function ServicesItem() {
       <div className="bg-gray-100 lg:w-full  p-4 group hover:shadow-md hover:shadow-black/25 transition-all hover:bg-gray-300 rounded-lg ">
         {" "}
         <div className="text-center  "> 
-        <BsWindowStack className="text-yellow-600 size-36 block mx-auto  " />
+        <BsWindowStack className="text-yellow-600 size-28 block mx-auto  " />
       
         </div>
         <h4 className="text-blue-600 font-semibold text-xl my-3"> RPL Certification  </h4>
@@ -60,7 +60,7 @@ export default function ServicesItem() {
       <div className="bg-gray-100 lg:w-full  p-4 group hover:shadow-md hover:shadow-black/25 transition-all hover:bg-gray-300 rounded-lg ">
         {" "}
         <div className="text-center  "> 
-        <AiFillSafetyCertificate className="text-red-600 size-36 block mx-auto  " />
+        <AiFillSafetyCertificate className="text-red-600 size-28 block mx-auto  " />
       
         </div>
         <h4 className="text-blue-600 font-semibold text-xl my-3"> Migration Skill Assessment   </h4>
@@ -72,7 +72,7 @@ export default function ServicesItem() {
       <div className="bg-gray-100 lg:w-full   p-4 group hover:shadow-md hover:shadow-black/25 transition-all hover:bg-gray-300 rounded-lg ">
         {" "}
         <div className="text-center  "> 
-        <FaUniversity className="text-blue-600 size-36 block mx-auto  " />
+        <FaUniversity className="text-blue-600 size-28 block mx-auto  " />
       
         </div>
         <h4 className="text-blue-600 font-semibold text-xl my-3">University  </h4>
