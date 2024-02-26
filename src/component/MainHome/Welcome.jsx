@@ -10,7 +10,7 @@ export default function Welcome() {
       <h2 class="text-black text-center text:xl lg:text-2xl">
         This Australian consultancy firm is owned and operated by Nepali.
       </h2>
-      <h3 class="text-gray-800 lg:text-xl  p-1 ">
+      <h3 class="text-gray-800 md:text-xl lg:text-xl  p-1 ">
         Deciding to study in a country outside of your native country is a
         huge decision to make. It entails adopting new habits, learning about
         a new culture, and adjusting to a lifestyle previously unknown to you.
