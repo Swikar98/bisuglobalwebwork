@@ -6,10 +6,10 @@ export default function Welcome() {
         <h1 className="  text-blue-600 font-bold text-4xl ">
           Welcome to the Bisu Global .
         </h1>
-        <h2 className="text-black  text-2xl ">
-          This Australian consultancy firm is owned and operated by Nepali.{" "}
+        <h2 className="text-black sm:text-sm  text-2xl ">
+          This Australian consultancy firm is owned and operated by Nepali.
         </h2>
-        <h3 className="text-black  text-xl p-1">
+        <h3 className="text-black  text-xl sm:text-sm p-1">
           Deciding to study in a country outside of your native country is a
           huge decision to make. It entails adopting new habits, learning about
           a new culture, and adjusting to a lifestyle previously unknown to you.
