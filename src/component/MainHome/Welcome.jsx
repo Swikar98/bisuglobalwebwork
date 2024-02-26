@@ -1,7 +1,7 @@
 export default function Welcome() {
   return (
     <div className="justify-center border bg-gray-100 hover:bg-gray-300 items-center 
- text-center ml-3 mr-3 rounded-lg  mb-5 ">
+  ml-3 mr-3 rounded-lg  mb-5 ">
       <div className="p-10">
         <h1 className="  text-blue-600 font-bold text-4xl ">
           Welcome to the Bisu Global .
