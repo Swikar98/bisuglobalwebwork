@@ -17,20 +17,20 @@ export default class Text extends Component{
      
       <Carousel infiniteLoop useKeyboardArrows autoPlay normal className="sm:text-sm"> 
     <div > 
-    <p className=" text-2xl text-center p-9 hover:text-white  ">
+    <p className=" lg:text-2xl text-center items-center p-9 hover:text-white  ">
             "Consider the impact of your success on others."
           </p>
     
   </div>
     <div> 
-    <p className=" text-2xl text-center  p-9 hover:text-white  ">
+    <p className=" lg:text-2xl text-center  p-9 hover:text-white  ">
             "Each day is a fresh chapter in your life's narrative.."
           </p>
     
 
     </div> 
     <div> 
-    <p className=" text-2xl text-center  p-9 hover:text-white  ">
+    <p className=" lg:text-2xl text-center  p-9 hover:text-white  ">
             "Love the way you lie .."
           </p>
     
