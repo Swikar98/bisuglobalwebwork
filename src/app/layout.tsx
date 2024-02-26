@@ -17,10 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body >
+      <body  >
         <Header/>
-       
-        {children}
+       <div className='bg-gray-300'>{children}</div>
+        
       <Footer/>
         </body>
     </html>

@@ -7,13 +7,13 @@ import Image from 'next/image';
 export default class NextJsCarousel extends Component { 
 	render() { 
 		return ( 
-			<div  className='h-full w-full rounded' > 
+			<div  className='h-full w-full bottom-0 justify-center items-center  rounded' > 
 			<Carousel infiniteLoop useKeyboardArrows autoPlay normal> 
 				<div > 
 					<Image 
 					src={Second}
 					 alt="image1" 
-					 className='h-full w-screen' /> 
+					 className='h-fit w-screen' /> 
 			<div className=" absolute justify-center items-center text-blue-600">
 				
 			</div>
@@ -23,7 +23,7 @@ export default class NextJsCarousel extends Component {
 					<Image 
 					src={First} 
 					alt="image2"
-					className='h-full w-screen' 
+					className='h-fit w-screen' 
 					/> 
 				
 

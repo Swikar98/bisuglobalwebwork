@@ -5,7 +5,7 @@ const YourComponent = () => {
   const [activeTab, setActiveTab] = useState(1);
 
   return (
-    <div className=" ">
+    <div className="flex justify-start ">
       <h1>Your Content</h1>
       <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
       {/* Add content for each tab based on the activeTab state */}

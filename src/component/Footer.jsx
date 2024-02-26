@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-blue-600">
       <Container>
-        <div className="flex flex-col items-center   pb-12 pt-8 md:flex-row md:justify-between md:pt-6">
+        <div className="flex flex-wrap   items-center   pb-12 pt-8 md:flex-row md:justify-between md:pt-6">
           <p className="text-s text-white">
             &copy; Copyright {new Date().getFullYear()}. All rights reserved Bisu Global.
           </p>
