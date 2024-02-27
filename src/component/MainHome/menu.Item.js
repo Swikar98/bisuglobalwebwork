@@ -17,7 +17,7 @@ export default function MenuItem() {
           {" "}
           Study in Canada{" "}
         </h4>
-        <p className="text-gray-600 text-xl">
+        <p className="text-gray-600  md:text-xl lg:text-xl">
           {" "}
           When you study in Canada, you can take advantage of a reasonable cost
           structure and high-quality instruction in best collage .
@@ -38,7 +38,7 @@ export default function MenuItem() {
         <h4 className="text-blue-600 font-semibold text-2xl my-3">
           Study in Australia
         </h4>
-        <p className="text-gray-800 text-xl">
+        <p className="text-gray-800  md:text-xl lg:text-xl">
           Enlarge your professional horizons by enrolling in some of the best 
           universities and school in the world while studying in Australia.
         </p>
@@ -58,7 +58,7 @@ export default function MenuItem() {
         <h4 className="text-blue-600  font-semibold text-2xl my-3">
           Study in USA{" "}
         </h4>
-        <p className="text-gray-800 text-xl">
+        <p className="text-gray-800 md:text-xl lg:text-xl">
           Enjoy academic success while utilizing the most sophisticated internet
           and technological infrastructure available in the US.{" "}
         </p>
@@ -78,7 +78,7 @@ export default function MenuItem() {
         <h4 className="text-blue-600 font-semibold text-xl my-3">
           Study in NetherLand
         </h4>
-        <p className="text-gray-800 text-xl">
+        <p className="text-gray-800  md:text-xl lg:text-xl">
           Enjoy academic success while utilizing the most sophisticated internet
           and technological infrastructure available in the US.{" "}
         </p>

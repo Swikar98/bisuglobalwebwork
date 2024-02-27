@@ -19,9 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body  >
         <Header/>
-       <div className='bg-gray-300'>{children}</div>
-        
-      <Footer/>
+       <div className='bg-gray-300  '>{children}</div>
+        <div className=''> <Footer/></div>
+      
         </body>
     </html>
   )
