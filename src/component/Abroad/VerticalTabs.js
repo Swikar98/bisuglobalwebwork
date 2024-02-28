@@ -4,12 +4,15 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import Aus from "@/component/Abroad/Aus"
+import Canada from "@/component/Abroad/Canada"
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
   return (
-    <div 
+    <div
       role="tabpanel"
       hidden={value !== index}
       id={`vertical-tabpanel-${index}`}
@@ -39,6 +42,7 @@ function a11yProps(index) {
 }
 
 export default function VerticalTabs() {
+  const isSmallScreen = useMediaQuery('(max-width:600px)');
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -46,37 +50,34 @@ export default function VerticalTabs() {
   };
 
   return (
-    <Box 
-    sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height:"100vh" }}
-  >
-    {/* Tabs for larger screens */}
-    <Tabs
-      orientation="vertical"
-      variant="scrollable"
-      value={value}
-      onChange={handleChange}
-      aria-label="Vertical tabs example"
-      sx={{ borderRight: 1, borderColor: 'divider', display: { xs: 'none',  } }}
+    <Box
+      sx={{ flexGrow: 1, bgcolor: 'background.paper', display: isSmallScreen ? '' : 'flex', lg: "100vh" }}
     >
-      <Tab label="Sturdy in Australia" />
-      <Tab label="Sturdy in USA" />
-      <Tab label="Sturdy in Netherland" />
-      <Tab label="Sturdy in Canada" />
-    </Tabs>
-
-    {/* TabPanels */}
-    <TabPanel value={value} index={0}>
-      <Aus />
-    </TabPanel>
-    <TabPanel value={value} index={1}>
-      Item Two
-    </TabPanel>
-    <TabPanel value={value} index={2}>
-      Item Three
-    </TabPanel>
-    <TabPanel value={value} index={3}>
-      Item Four
-    </TabPanel>
-  </Box>
+      <Tabs
+        orientation={isSmallScreen ? 'horizontal' : 'vertical'}
+        variant="scrollable"
+        value={value}
+        onChange={handleChange}
+        aria-label="Vertical tabs example"
+        sx={{ borderRight: isSmallScreen ? 0 : 1, borderColor: 'divider' }}
+      >
+        <Tab label="Sturdy in Australia" {...a11yProps(0)} />
+        <Tab label="Sturdy in Canada" {...a11yProps(1)} />
+        <Tab label="Sturdy in USA" {...a11yProps(2)} />
+        <Tab label="Sturdy in Netherland" {...a11yProps(3)} />
+      </Tabs>
+      <TabPanel value={value} index={0}>
+        <Aus />
+      </TabPanel>
+      <TabPanel value={value} index={1}>
+        <Canada />
+      </TabPanel>
+      <TabPanel value={value} index={2}>
+        Item Three
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+        Item Four
+      </TabPanel>
+    </Box>
   );
 }
