@@ -61,10 +61,10 @@ export default function VerticalTabs() {
         aria-label="Vertical tabs example"
         sx={{ borderRight: isSmallScreen ? 0 : 1, borderColor: 'divider' }}
       >
-        <Tab label="Sturdy in Australia" {...a11yProps(0)} />
-        <Tab label="Sturdy in Canada" {...a11yProps(1)} />
-        <Tab label="Sturdy in USA" {...a11yProps(2)} />
-        <Tab label="Sturdy in Netherland" {...a11yProps(3)} />
+        <Tab label="Study in Australia" {...a11yProps(0)} />
+        <Tab label="Study in Canada" {...a11yProps(1)} />
+        <Tab label="Study in USA" {...a11yProps(2)} />
+        <Tab label="Study in Netherland" {...a11yProps(3)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         <Aus />
