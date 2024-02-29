@@ -8,13 +8,13 @@ const Aus = () => {
   return (
     <section className="bg-white">
       <div className="container mx-auto ml-100 h-full w-full justify-end py-16 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-end items-center gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-end gap-8">
           <div className="max-w-lg">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
               Your Path to Success in Australia
             </h2>
-            <ReadMore text={austext} maxLength={50}/>
-              {/* <p className="mt-4 text-gray-600 text-lg">
+            
+              {/* <p >
         
            
             </p>
@@ -22,14 +22,15 @@ const Aus = () => {
               
             </p> */}
           
-            <div className="mt-8">
-              <a
+            <div className="mt-8 text-lg">
+            <ReadMore text={austext} maxLength={421} className="mt-4 text-gray-600 "/>
+              {/* <a
                 href="http://localhost:3000/aboutus"
                 className="text-blue-500 hover:text-blue-600 font-medium"
               >
                 Learn more about us
                 <span className="ml-2">&#8594;</span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="mt-12 md:mt-0">
