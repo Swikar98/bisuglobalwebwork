@@ -16,7 +16,7 @@ const Canada = () => {
   If you are not native to either English or French, you might need to take language proficiency exams like the TEF for French or the IELTS or TOEFL for English.`;
   return (
     <section className="bg-white">
-    <div className="container mx-auto ml-100 h-screen w-full  justify-end py-16 px-4 sm:px-6 lg:px-8">
+    <div className="container mx-auto ml-100 lg:h-screen w-full  justify-end py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2  justify-end  gap-8">
         <div className="mt-12 md:mt-0">
                 <Image 
