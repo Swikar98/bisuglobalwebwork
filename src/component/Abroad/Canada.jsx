@@ -16,15 +16,15 @@ const Canada = () => {
   If you are not native to either English or French, you might need to take language proficiency exams like the TEF for French or the IELTS or TOEFL for English.`;
   return (
     <section className="bg-white">
-    <div className="container mx-auto ml-100 h-screen w-full justify-end py-16 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-end  gap-8">
+    <div className="container mx-auto ml-100 h-screen w-full  justify-end py-16 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2  justify-end  gap-8">
         <div className="mt-12 md:mt-0">
                 <Image 
                 src={first}
                  alt="About Us Image" 
                  className="object-cover rounded-lg shadow-md"/>
             </div>
-            <div className="max-w-lg">
+            <div className="max-w-lg item-center">
                 <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Your Path to Success in Australia</h2>
                 {/* <p className="mt-4 text-gray-600 text-lg"> Welcome to BISU GLOBAL , your trusted partner for navigating the educational and immigration landscape in Australia. Our consultancy is dedicated to helping individuals like you achieve their dreams of studying, working, and thriving in the land Down Under.</p>
                 <p className="text-lg ">
