@@ -11,7 +11,6 @@ export default function Contactmain() {
               Get in Touch
             </h2>
             <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">
-              In hac habitasse platea dictumst
             </p>
           </div>
         </div>
@@ -19,9 +18,7 @@ export default function Contactmain() {
           <div className="grid md:grid-cols-2">
             <div className="h-full pr-6">
               <p className="mt-3  text-lg text-gray-600 dark:text-slate-400">
-                className aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut
-                scelerisque sagittis ante, ac tincidunt sem venenatis ut.
+                Bisu Global 
               </p>
               <ul className="mb-6 md:mb-0">
                 <li className="flex">
@@ -81,7 +78,7 @@ export default function Contactmain() {
                       Mobile: +1 (123) 456-7890
                     </p>
                     <p className="text-gray-600 dark:text-slate-400">
-                      Mail: tailnext@gmail.com
+                      Mail: bisuglobal@gmail.com
                     </p>
                   </div>
                 </li>
@@ -176,7 +173,7 @@ export default function Contactmain() {
                     className="shadow-sm bg-gray-50 border  
                                       border-gray-300 text-gray-900  
                                       text-sm rounded-lg block w-full p-2.5"
-                    placeholder="abc@geeksforgeeks.org"
+                    placeholder="your email"
                     required
                   />
                 </div>
