@@ -12,7 +12,7 @@ export const navData = [
   // ]
 },
   { _id: 103, title: "EVENT", href: "event" },
-  { _id: 104, title: "STUDENT SERVICE", href: "service" },
+  { _id: 104, title: "SERVICES", href: "service" },
   { 
     _id: 104, 
     title: "VISA", 
