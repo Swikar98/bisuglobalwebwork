@@ -16,7 +16,7 @@ const ChooseUs = () => {
       </div>
       <div className="text-center lg:text-left md:text-center sm:text-center">
         <h3 className="text-4xl font-bold">
-          Why should you <br /> choose Studying
+          Why should you <br /> choose Studying in Australia 
         </h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.,<br />
