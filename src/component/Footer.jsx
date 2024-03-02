@@ -1,68 +1,55 @@
-'use client'
-import { 
-    FacebookShareButton, 
-    FacebookIcon, 
-    PinterestShareButton, 
-    PinterestIcon, 
-    RedditShareButton, 
-    RedditIcon, 
-    WhatsappShareButton, 
-    WhatsappIcon, 
-    LinkedinShareButton, 
-    LinkedinIcon, 
-  } from 'next-share'; 
+"use client";
 import React from "react";
-import { TextField } from "../component/Field";
-import Button from "./Button";
-import Container from "./Container";
+import Image from "next/image";
+import Logo from "@/image/logo.png";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-600">
-      <Container>
-        <div className="flex flex-wrap   items-center   pb-12 pt-8 md:flex-row md:justify-between md:pt-6">
-          <p className="text-s text-white">
-            &copy; Copyright {new Date().getFullYear()} bisu.com.au - All Rights Reserved..
+    <>
+      <div className="grid grid-cols-1 h-full md:grid-cols-2  justify-center rounded-lg bg-gray-200 border mt-10">
+        <div className="m-4">
+          <Image src={Logo} alt="logo" height={100} width={125} />
+          <p className="mt-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ullam
+            a voluptatibus. Tempore aperiam, deserunt voluptatem quidem corporis
+            iure sed earum veritatis nesciunt ipsum nam praesentium cumque vel,
+            similique minima.
           </p>
-   <socialshare/>
-   <div> 
-      <h1>Follow us on Social Media</h1> 
-      <FacebookShareButton 
-        
-        url={'http://localhost:3000'} > 
-        <FacebookIcon size={32} round /> 
-      </FacebookShareButton> 
-      
-      
-      <WhatsappShareButton 
-        
-        url={'http://localhost:3000'} > 
-        <WhatsappIcon size={32} round /> 
-      </WhatsappShareButton> 
-      <LinkedinShareButton 
-        
-        url={'http://localhost:3000'} > 
-        <LinkedinIcon size={32} round /> 
-      </LinkedinShareButton> 
-    </div> 
-          
-          <form className="flex w-full justify-center md:w-auto mt-6 md:mt-0">
-            <TextField
-              type="email"
-              aria-label="Email address"
-              placeholder="Email address"
-              autoComplete="email"
-              required
-              className="w-60 min-w-0 shrink"
-            />
-            <Button type="submit" color="blue" className="ml-4 flex-none">
-              <span className="hidden lg:inline">Subscribe</span>
-              <span className="lg:hidden">Subscribe</span>
-            </Button>
-          </form>
+          <div className="mt-4 mb-4 text-blue-600 flex gap-4">
+            <FaFacebook size={20} />
+            <FaInstagram size={20} />
+            <FaLinkedin size={20} />
+            <FaTwitter size={20} />
+          </div>
         </div>
-      </Container>
-    </footer>
+        <div className="grid grid-cols-2  p-4">
+          <div>
+            <h2 className="text-blue-600 mt-4 font-bold">Visa Service </h2>
+            <ul className="mt-2">
+              <li>Partner Visa</li>
+              <li>Student Visa</li>
+              <li>Training Visa</li>
+              <li>Visitor Visa</li>
+              <li>Temporary Visa</li>
+            </ul>
+          </div>
+          <div className="">
+            {/* Visible on small screens only */}
+            <h2 className="text-blue-600 mt-4 font-bold">Support</h2>
+            <ul className="mt-2">
+              <li>Chat Support</li>
+              <li>Help Center</li>
+              <li>Report Bug</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="grid lg:gap-36 ml-4 font-semibold grid-cols-1 md:grid-cols-2 border">
+        <div className="lg:m-4">Copyright @ 2024 Bisu Global</div>
+        <div className="lg:m-4">All Right Reserve.</div>
+      </div>
+    </>
   );
 };
 
